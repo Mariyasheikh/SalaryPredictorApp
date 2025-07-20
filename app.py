@@ -2,11 +2,45 @@ import streamlit as st
 import pandas as pd
 import pickle
 
+# Custom CSS with bolder visual style
+st.markdown("""
+    <style>
+        .stApp {
+            background-color: #d8d3f3; /* Richer lavender */
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        h1 {
+            color: #2c2f80;
+            text-align: center;
+            font-weight: 700;
+            font-size: 2.5em;
+            margin-bottom: 30px;
+        }
+
+        .stButton>button {
+            background-color: #5f4bb6;
+            color: white;
+            font-weight: 600;
+            font-size: 1.1em;
+            border-radius: 10px;
+            padding: 0.6em 1.3em;
+            border: none;
+            box-shadow: 2px 2px 8px rgba(0,0,0,0.15);
+        }
+
+        .stButton>button:hover {
+            background-color: #4b3a9a;
+            transition: 0.3s ease;
+        }
+    </style>
+""", unsafe_allow_html=True)
+
 # Load the trained model pipeline
 with open("model.pkl", "rb") as f:
     model = pickle.load(f)
 
-st.title("Salary Prediction App")
+st.title("💰 Salary Prediction App")
 
 # User input
 age = st.number_input("Age", min_value=18, max_value=65, value=25)
