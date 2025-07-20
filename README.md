@@ -4,7 +4,7 @@ This is a simple AI-powered web app built using **Streamlit** and **Machine Lear
 
 📷 App Preview
 
-![App Screenshot](screenshots/project photo.PNG)
+![App Screenshot](screenshots/project.PNG)
 
 ## 📌 Features
 
