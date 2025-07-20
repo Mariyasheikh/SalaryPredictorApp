@@ -4,7 +4,7 @@ This is a simple AI-powered web app built using **Streamlit** and **Machine Lear
 
 ## 📸 App Preview
 
-![App Screenshot](C:\Users\Lenovo\Downloads\SalaryPredictorApp\screenhsot.png)
+![App Screenshot](screenshot.png)
 
 ## 📌 Features
 
