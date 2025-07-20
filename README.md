@@ -2,9 +2,9 @@
 
 This is a simple AI-powered web app built using **Streamlit** and **Machine Learning** to predict employee salaries based on user inputs such as age, gender, education level, job title, and years of experience.
 
-📷 App Preview
+## 📸 App Preview
 
-![App Screenshot](screenshots/project.PNG)
+![App Screenshot](project.png)
 
 ## 📌 Features
 
